@@ -1,5 +1,5 @@
 // Online C++ compiler to run C++ program online
-// Star Triangle Pattern
+// Inverted Half Pyramid Pattern
 #include <iostream>
 using namespace std;
 int main() {
