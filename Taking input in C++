@@ -5,6 +5,6 @@ int main()
     int age;
     cout<<"Enter your age :"<<endl;
     cin>>age;    //this is how you take input in C++
-    if((age>=18)?cout<<"You can vote":cout<<"Not eligible to vote because you are under 18"<<endl);
+    ((age>=18)?cout<<"You can vote":cout<<"Not eligible to vote because you are under 18"<<endl);   //Ternary operator syntax: a?b:c
     return 0;
 }
