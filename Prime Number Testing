@@ -2,23 +2,23 @@
 using namespace std;
 int main()
 {
-    int i,l,n;
+    int i,j,n;
     int k=1;
-    cout<<"enter a number: "<<endl;
+    cout<<"Enter a number: "<<endl;
     cin>>n;
     for(i=2;i<n;i++)
     
-    {
-        if(n%i==0)
-        {
-        cout<<"It is not a prime number"<<endl;
-        k=0;
-        }
-    }
+                {
+                    if(n%i==0)
+                        {
+                         cout<<"It is not a prime number"<<endl;
+                         k=0;
+                        }
+                }
     if(k==1&&n!=1)
-    cout<<"yes we got prime"<<endl;
+    cout<<"Yes we got a prime!"<<endl;
     if(n==1)
-    cout<<"special case warning!! should exactly have two factors. Hence Not Prime";
+    cout<<"special case warning!! should exactly have two factors";
+
 return 0;
-    
 }
