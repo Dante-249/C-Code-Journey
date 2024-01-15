@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int i,j,l,n;
+    int i,l,n;
     int k=1;
     cout<<"enter a number: "<<endl;
     cin>>n;
@@ -11,7 +11,7 @@ int main()
     {
         if(n%i==0)
         {
-        cout<<"not prime"<<endl;
+        cout<<"It is not a prime number"<<endl;
         k=0;
         }
     }
